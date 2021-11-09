@@ -13,6 +13,7 @@ body {
   margin-top: 30px;
   position: relative;
   border: 10px black;
+  margin-bottom: 30px;
 }
 #top-icon {
   position: absolute;
@@ -36,6 +37,13 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-button {
-  text-align: center;
+#cardChanger,
+#timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#timer {
+  margin-bottom: 30px;
 }
