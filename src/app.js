@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 import { Button } from "bootstrap";
 
 window.onload = function cardGenerator() {
-  document.body.style.background = "green";
+  document.body.style.background = "black";
 
   let randomSuit = ["♦", "♥", "♠", "♣"];
 
